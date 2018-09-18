@@ -9,6 +9,13 @@
 import UIKit
 
 class SelectPersonVC: UIViewController {
+   
+    
+    
+//    let nameArray = ["Luke Skywalker", "C-3PO", "R2-D2", "Darth Vader", "Leia Organa", "Owen Lars", "Beru Whitesun lars", "R5-D4", "Biggs Darklighter", "Obi-Wan Kenobi", "Anakin Skywalker", "Wilhuff Tarkin", "Chewbacca", "Han Solo", "Greedo", "Jabba Desilijic Tiure", "Error", "Wedge Antilles" ]
+    
+    
+   
     
     @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var heightLbl: UILabel!
@@ -26,6 +33,7 @@ class SelectPersonVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
 
    }
@@ -114,6 +122,9 @@ class SelectPersonVC: UIViewController {
 //        case starship = "toStarships"
 //        case films = "toFilms"
 //    }
+    
+    
+    
 }
 
 
